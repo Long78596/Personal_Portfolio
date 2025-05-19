@@ -47,7 +47,7 @@ export const AboutSection =()=>{
                   </div>
                   <div className="text-left">
                     <h4 className="text-semibold text-lg">Web Development</h4>
-                    <p class="text-muted-foreground">
+                    <p className="text-muted-foreground">
                       Creating response website and web applications with modern
                       frameworks.
                     </p>
@@ -61,7 +61,7 @@ export const AboutSection =()=>{
                   </div>
                   <div className="text-left">
                     <h4 className="text-semibold text-lg">UI/UX Designer</h4>
-                    <p class="text-muted-foreground">
+                    <p className="text-muted-foreground">
                       Creating response website and web applications with modern
                       frameworks.
                     </p>
@@ -75,7 +75,7 @@ export const AboutSection =()=>{
                   </div>
                   <div className="text-left">
                     <h4 className="text-semibold text-lg">Project Manager</h4>
-                    <p class="text-muted-foreground">
+                    <p className="text-muted-foreground">
                       Creating response website and web applications with modern
                       frameworks.
                     </p>

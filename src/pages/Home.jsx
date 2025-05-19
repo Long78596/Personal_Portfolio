@@ -1,8 +1,10 @@
-import { AboutSection } from "../Component/AboutSection";
-import { HeroSection } from "../Component/HeroSection";
-import { Navbar } from "../Component/Navbar";
-import { ThemeToggle } from "../Component/ThemeToggle";
-import {StarBackground} from "@/Component/StarBackground"
+import { AboutSection } from "../components/AboutSection";
+import { HeroSection } from "../components/HeroSection";
+import { Navbar } from "../components/Navbar";
+import { ProjectsSection } from "../components/ProjectsSection";
+import { SkillsSection } from "../components/SkillSection";
+import { ThemeToggle } from "../components/ThemeToggle";
+import { StarBackground } from "@/components/StarBackground";
 export const Home=()=>{
      return (
        <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
@@ -16,6 +18,8 @@ export const Home=()=>{
          <main>
           <HeroSection />
           <AboutSection/>
+          <SkillsSection />
+          <ProjectsSection />
 
          </main>
 
